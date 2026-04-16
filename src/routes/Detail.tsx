@@ -35,6 +35,21 @@ function Detail() {
             <Link to={"/"} className={styles.backLink}>
                 &larr; 목록으로 돌아가기
             </Link>
+
+            <div className={styles.image}>
+                {rocket.flickr_images[0] && (
+                    <div className={styles.imageWrapper}>
+                        <img
+                            src={rocket.flickr_images[0]}
+                            alt={rocket.name}
+                            className={styles.rocketImage}
+                        />
+                    </div>
+                ) }
+            </div>
+
+
+
             <article className={styles.article}>
                 <h1 className={styles.name}>{rocket.name}</h1>
                 <div className={styles.body}>{rocket.description}</div>

@@ -51,3 +51,27 @@
     white-space: pre-wrap;
     margin-bottom: 24px;
 }
+
+.image {
+    background-color: #1e293b;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.rocketImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* 부모에 딱 맞게 들어가도록 */
+    transition: all 0.5s;
+}
+
+.rocketImage:hover {
+    transform: scale(1.05);
+}

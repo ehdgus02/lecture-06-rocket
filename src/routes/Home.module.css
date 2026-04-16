@@ -13,10 +13,13 @@
 }
 
 .title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 24px;
+    height: 100px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
     color: #111;
+    text-align: center;
+    background: linear-gradient(135deg, #dee2e6 0%, #888888 100%);
 }
 
 .boardTable {

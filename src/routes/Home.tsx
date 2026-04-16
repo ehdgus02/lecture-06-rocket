@@ -8,6 +8,7 @@ export type RocketType = {
     description: string;
     first_flight: string;
     company: string;
+    flickr_images: string[];
 };
 
 function Home() {
